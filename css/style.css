@@ -1,0 +1,26 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    height: 50px;
+}
+
+.go-detail-container{
+    position: relative;
+}
+.go-detail{
+    position: absolute;
+    top: 3px;
+    right: 0;
+    padding: 7px;
+}
+
+.go-detail:hover{
+    cursor: pointer;
+    color: white;
+    background-color: teal;
+}
+.go-detail-background{
+    background-color: rgb(5, 201, 201);
+}
