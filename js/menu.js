@@ -106,7 +106,7 @@ function GenerateMenuHtml(menuType, levelIndex, lessionIndex) {
             level = menu[levelIndex];
             let lession = level.lessions[lessionIndex];
             title = lession.title;
-            content = GenerateExercisesHTML(level.title, lession.type, lession.children);
+            content = GenerateExercisesHTML(level.type, lession.type, lession.children);
             break;
     }
     let html = `
