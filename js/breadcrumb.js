@@ -6,12 +6,12 @@ var hierarchy = [
             {
                 title: "Questions",
                 type: "questions",
-                children: 2,
+                children: 5,
             },
             {
                 title: "Numbers and Letters",
                 type: "numbersandletters",
-                children: 0
+                children: 4
             },
             {
                 title: "People",
@@ -88,7 +88,7 @@ function GetBreadCrumb(levelIndex, lessionIndex, exercise, parent) {
         if(exercise && exercise > 0){
             html += `
                 <li class="breadcrumb-item"><a class="black-text" href="/pages/${level.type}/index.php">${level.title}</a></li>
-                <li class="breadcrumb-item"><a class="black-text" href="/pages/${level.type}/${lession.title}/index.php">${lession.title}</a></li>
+                <li class="breadcrumb-item"><a class="black-text" href="/pages/${level.type}/${lession.type}/index.php">${lession.title}</a></li>
                 <li class="breadcrumb-item active">${exercise}</li>
             `;
             parent.url = `/pages/${level.type}/${lession.type}`;

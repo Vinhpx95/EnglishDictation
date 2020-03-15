@@ -7,13 +7,13 @@ var elementary = {
         { // 0
             title: "Questions",
             icon: "fas fa-question",
-            children: 2,
+            children: 5,
             type: "questions"
         },
         { // 1
             title: "Numbers and Letters",
             icon: "fas fa-sort-numeric-up-alt",
-            children: 0,
+            children: 4,
             type: "numbersandletters"
         },
         { // 2
@@ -106,7 +106,7 @@ function GenerateMenuHtml(menuType, levelIndex, lessionIndex) {
             level = menu[levelIndex];
             let lession = level.lessions[lessionIndex];
             title = lession.title;
-            content = GenerateExercisesHTML(level.title, lession.title, lession.children);
+            content = GenerateExercisesHTML(level.title, lession.type, lession.children);
             break;
     }
     let html = `
