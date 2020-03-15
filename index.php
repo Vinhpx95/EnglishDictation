@@ -1,6 +1,6 @@
 <!-- Header -->
 <?php include('./layout/header.php') ?>
-<!-- Content auto deploy-->
+<!-- Content-->
 <div class="container pt-5 pb-5">
 </div>
 <script>
