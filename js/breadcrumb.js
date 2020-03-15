@@ -11,47 +11,47 @@ var hierarchy = [
             {
                 title: "Numbers and Letters",
                 type: "numbersandletters",
-                children: 4
+                children: 5
             },
             {
                 title: "People",
                 type: "people",
-                children: 0
+                children: 5
             },
             {
                 title: "Places and Weather",
                 type: "placesandweather",
-                children: 0
+                children: 5
             },
             {
                 title: "Commands and Requests",
                 type: "commandsandrequests",
-                children: 0
+                children: 5
             },
             {
                 title: "Common Expressions",
                 type: "commonexpressions",
-                children: 0
+                children: 5
             },
             {
                 title: "Quantities",
                 type: "quantities",
-                children: 0
+                children: 5
             },
             {
                 title: "Currency",
                 type: "currency",
-                children: 0
+                children: 5
             },
             {
                 title: "Telephone",
                 type: "telephone",
-                children: 0
+                children: 5
             },
             {
                 title: "Quotes",
                 type: "ruotes",
-                children: 0
+                children: 3
             }
         ]
     },

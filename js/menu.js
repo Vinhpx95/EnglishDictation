@@ -13,55 +13,55 @@ var elementary = {
         { // 1
             title: "Numbers and Letters",
             icon: "fas fa-sort-numeric-up-alt",
-            children: 4,
+            children: 5,
             type: "numbersandletters"
         },
         { // 2
             title: "People",
             icon: "fas fa-user-friends",
-            children: 0,
+            children: 5,
             type: "people"
         },
         { // 3
             title: "Places and Weather",
             icon: "fas fa-smog",
-            children: 0,
+            children: 5,
             type: "placesandweather"
         },
         { // 4
             title: "Commands and Requests",
             icon: "fab fa-accusoft",
-            children: 0,
+            children: 5,
             type: "commandsandrequests"
         },
         { // 5
             title: "Common Expressions",
             icon: "fab fa-creative-commons-sampling",
-            children: 0,
+            children: 5,
             type: "commonexpressions"
         },
         { // 6
             title: "Quantities",
             icon: "fas fa-calculator",
-            children: 0,
+            children: 5,
             type: "quantities"
         },
         { // 7
             title: "Currency",
             icon: "fas fa-yen-sign",
-            children: 0,
+            children: 5,
             type: "currency"
         },
         { //8
             title: "Telephone",
             icon: "fas fa-phone-square-alt",
-            children: 0,
+            children: 5,
             type: "telephone"
         },
         { // 9
             title: "Quotes",
             icon: "fas fa-quote-right",
-            children: 0,
+            children: 3,
             type: "quotes"
         }
     ]
